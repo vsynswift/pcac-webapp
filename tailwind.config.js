@@ -16,16 +16,20 @@ module.exports = {
     extend: {
       colors: {
         primaryColor: "#0057FF",
+        secondaryTextColor :"#A3A3A3",
         secondaryColor: "#0057FFB2",
         transparentColor: "#EEEEEE"
       },
+      boxShadow: {
+        'xl': '0px 0px 40px 10px #F2F6FF;',
+      }
     },
     fontFamily: {
       sans: ['var(--font-opensans)']
     },
     fontSize:{
       "xl" : "20px",
-      "lg" : "18px",
+      "lg" : "15px",
       "5xl": "50px",
       "2xl": "25px",
     },

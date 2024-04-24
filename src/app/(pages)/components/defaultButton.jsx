@@ -3,11 +3,12 @@
 import { Button } from "flowbite-react";
 import React from "react";
 
-function DefaultButton(props,classname) {
+function DefaultButton({title,classnames,size}) {
   return ( 
     <div >
-      <Button size="sm" className={`${classname} enabled:hover:bg-primaryColor bg-[#0057ffe8] focus:ring-0 px-4`}>
-        <span className="rounded-sm">{props.title}</span>
+      <Button size={size ? size :"lg"} className={`enabled:hover:bg-[#0057ffe8] bg-primaryColor focus:ring-0 py-1 px-4 text-[15px] font-semibold
+      ${classnames} `}>
+        <span className="rounded-sm">{title}</span>
       </Button>
     </div>
   );

@@ -64,11 +64,14 @@ function Hero() {
             <span className="font-bold lg:text-5xl lg:leading-none">
               with PCAC.
             </span>
-            <p className="text-lg text-gray-400">
+            <div>
+            <p className="text-lg text-gray-600">
               If you’re new to Genie or looking to supercharge your current
-              stack, this section will help learn more about the platform
-              features.
+              stack,
             </p>
+            <span className="text-lg text-gray-600"> this section will help learn more about the platform
+              features.</span>
+            </div>
             <div className="px-0 ">
               <DefaultButton
                 className="bg-primaryColor enabled:hover:bg-primaryColor justify-start lg:justify-center"
@@ -76,8 +79,8 @@ function Hero() {
               />
             </div>
           </div>
-          <div className="lg:absolute lg:right-10 lg:top-[25rem] block pt-4">
-            <h6 className="text-primaryColor">Download App:</h6>
+          <div className="lg:absolute lg:right-0 lg:top-[25rem] block pt-4">
+            <h6 className="text-primaryColor font-semibold pb-1">Download App:</h6>
             <div className="flex gap-4 flex-row ">
               <a href="#">
                 <Image src={hero4} className="h-15" alt="hero4" />

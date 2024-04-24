@@ -23,7 +23,7 @@ function NavList() {
           <Link
             variant="small"
             color={activeIndex === index ? "blue" : "gray"} // Change color based on activeIndex
-            className={`pt-1 px-2 ${activeIndex === index ? 'font-semibold' : ''}`} // Add font-bold class conditionally
+            className={`pt-1 px-2 text-[15px] ${activeIndex === index ? 'font-semibold' : ''}`} // Add font-bold class conditionally
             href={item.href}
             onClick={() => handleClick(index)} // Handle click event
           >

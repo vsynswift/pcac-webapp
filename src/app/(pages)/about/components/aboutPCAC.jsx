@@ -36,10 +36,10 @@ function AboutPCAC() {
           <div className=" flex flex-col gap-2 lg:gap-4 pt-4">
             <div>
               <h6 className="text-lg font-semibold">About PCAC</h6>
-              <h1 className="lg:text-5xl tracking-normal font-semibold text-2xl lg:leading-none">
+              <h1 className="lg:text-5xl tracking-normal font-semibold text-2xl ">
                 We aim to Provide Expert
               </h1>
-              <span className="font-semibold tracking-normal lg:text-5xl text-gray-400 lg:leading-none">
+              <span className="font-semibold tracking-normal lg:text-5xl text-secondaryTextColor lg:leading-none">
                 Advice and Quality Services.
               </span>
               

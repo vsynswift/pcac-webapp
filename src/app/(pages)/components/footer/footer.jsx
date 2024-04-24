@@ -4,10 +4,10 @@ import { IoLogoYoutube } from "react-icons/io";
 import { PiMapPinFill } from "react-icons/pi";
 import { MdLocalPhone } from "react-icons/md";
 import { BiSolidPrinter } from "react-icons/bi";
-import NavList from "./navList";
+import NavList from "../header/navList";
 import Image from "next/image";
 import Link from "next/link"
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../../assets/images/logo.png";
 
 const contentDetails = [
   {
@@ -41,7 +41,7 @@ function Footer() {
           <br /> We stay light on our feet and truly enjoy delivering great
           work.
         </p>
-        <div className="flex flex-col md:flex-row md:justify-center lg:items-center text-black text-xl md:gap-4">
+        <div className="flex flex-col md:flex-row md:justify-center lg:items-center text-black md:gap-4">
           {contentDetails.map((item, index) => (
             <div
               key={index}

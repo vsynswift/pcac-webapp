@@ -9,13 +9,13 @@ function DownloadApp() {
       className="lg:flex block text-center justify-between items-center text-white py-4 bg-cover bg-center lg:m-[80px] m-4 p-4 lg:px-[80px]"
       style={{ backgroundImage: `url(${about5.src})` }}
     >
-      <div><h6 className="lg:text-5xl text-2xl font-semibold">Download App</h6></div>
+      <div><h6 className="lg:text-5xl text-2xl font-semibold">Download PCAC App</h6></div>
       <div className="flex gap-4 flex-row justify-center">
         <a href="#">
-        <Image src={hero4} className="h-15" alt="hero4" />
+        <Image src={hero4} className="h-19 w-60" alt="hero4" />
         </a>
         <a href="#">
-          <Image src={hero5} className="h-15" alt="hero5" />
+          <Image src={hero5} className="h-19 w-60" alt="hero5" />
         </a>
       </div>
     </div>

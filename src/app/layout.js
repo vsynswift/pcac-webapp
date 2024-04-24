@@ -2,7 +2,7 @@
 import localFont from 'next/font/local'
 import "./globals.css";
 import DefaultHeader from './(pages)/components/header/defaultHeader';
-import Footer from './(pages)/components/footer';
+import Footer from './(pages)/components/footer/footer';
 import { ThemeModeScript } from "flowbite-react";
 const opensans = localFont({
   

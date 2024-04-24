@@ -3,9 +3,9 @@ import { Button, Navbar } from "flowbite-react";
 import Link from "next/link"
 import Logo from "../../../assets/images/logo.png";
 import Image from "next/image";
-import Navlist from "../navList";
+import Navlist from "./navList";
 import DefaultButton from "../defaultButton";
-import AnnouncementBar from "../announcementBar";
+import AnnouncementBar from "./announcementBar";
 import DrawerMenu from "./drawerMenu";
 
 function DefaultHeader() {
@@ -30,7 +30,7 @@ function DefaultHeader() {
             <Navlist />
           </div>
           <div className="lg:flex md:order-2 hidden ml-2 ">
-            <Button className="text-black font-semibold bg-gray-100 enabled:hover:bg-gray-200 border-1 border-gray-200 focus:ring-0">Request An Account</Button>
+            <DefaultButton classnames="!bg-gray-100 hover:bg-gray-300 border border-gray-200 text-black" title={"Request for Call"} />
           </div>
           <div className="lg:flex md:order-2 hidden ml-2">
             <DefaultButton className="" title={"Login"} />

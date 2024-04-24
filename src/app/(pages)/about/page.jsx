@@ -1,6 +1,6 @@
-import Property from "../(home)/components/property";
-import Subscribe from "../(home)/components/subscribe";
-import { Testimonials } from "../(home)/components/testimonials";
+import Property from "../components/property";
+import Subscribe from "../components/subscribe";
+import { Testimonials } from "../components/testimonials";
 import BreadCamps from "../components/breadCamp";
 import AboutPCAC from "./components/aboutPCAC";
 import DownloadApp from "./components/downloadApp";

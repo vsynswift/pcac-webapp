@@ -41,13 +41,13 @@ function Faq(props) {
           
         </div>
         <div className="">
-          <h5 className="block font-sans text-2xl lg:text-5xl antialiased font-semibold leading-none tracking-normal ">
+          <h5 className="block font-sans text-2xl lg:text-5xl antialiased font-semibold tracking-normal ">
             Have any questions?
           <br />
-          <span className="text-2xl lg:text-5xl text-gray-400">Find answers here.</span></h5>
+          <span className="text-2xl lg:text-5xl text-secondaryTextColor">Find answers here.</span></h5>
         </div>
         <div>
-          <p className="text-lg text-gray-400">
+          <p className="text-lg text-gray-600">
             If you’re new to Genie or looking to supercharge your current stack,
             this section will help you learn more about the platform and its
             features.
@@ -56,7 +56,7 @@ function Faq(props) {
         <div className=" py-4">
           <a href="#" className="inline-block">
             <DefaultButton
-              title={"Contact Us"}
+              title={"Read More"}
               className="bg-primaryColor text-white"
             />
           </a>
@@ -64,10 +64,10 @@ function Faq(props) {
       </div>
       <div className="lg:grid lg:col-span-3 block">
       
-        <Accordion className="border-none">
+        <Accordion className="border-0">
         {data.map((data) => (
           <Accordion.Panel>
-            <Accordion.Title className="hover:bg-transparent focus:ring-0 bg-transparent text-lg font-semibold text-black">{data.question}</Accordion.Title>
+            <Accordion.Title className="hover:bg-transparent focus:ring-0 bg-transparent text-[22px] font-semibold text-black">{data.question}</Accordion.Title>
             <Accordion.Content>
               {data.answer}
             </Accordion.Content>

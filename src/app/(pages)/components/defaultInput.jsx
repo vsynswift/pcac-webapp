@@ -1,11 +1,11 @@
 const DefaultInput = ({ name, type, placeholder, id, classnames }) => {
     return (
-        <div className="lg:w-3/4 w-[250px]">
+        <div className="lg:w-[375px] w-full">
             <input
                 type={type}
                 id={id}
                 name={name}
-                className={`focus:ring-0 focus:outline-none border-0 h-10 text-black p-2 ${classnames}`}
+                className={`focus:ring-0 focus:outline-none border-0 text-black p-4 ${classnames}`}
                 placeholder={placeholder}
             />
         </div>

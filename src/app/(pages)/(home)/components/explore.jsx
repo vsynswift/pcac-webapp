@@ -4,11 +4,11 @@ import Explore2 from "../../../assets/images/explore2.png";
 
 function Explore() {
   return (
-    <div className="lg:-mt-[80px] mt-0 ">
-      <div className="lg:flex lg:flex-row justify-between block lg:pt-[-80px] lg:p-[80px] p-4 items-end">
-        <div className="lg:text-5xl lg:leading-none text-2xl font-semibold">
+    <div className="lg:-mt-[80px] pt-[80px]">
+      <div className="lg:flex lg:flex-row justify-between block lg:pt-[80px] lg:px-[80px] pb-8 p-4 items-end">
+        <div className="lg:text-5xl text-2xl font-semibold">
           <h1>Explore Our</h1>
-          <h2 className="text-gray-400">PCAC Playbook</h2>
+          <h2 className="text-secondaryTextColor">PCAC Playbook</h2>
         </div>
         <div className="py-4 lg:py-0">
           <DefaultButton
@@ -22,8 +22,8 @@ function Explore() {
           <img src={Explore1.src} className="w-full lg:h-96 h-80" />
           <div className="text-lg py-4 pr-[50px]">
             <h2 className="text-[28px] ">01</h2>
-            <h1 className="font-semibold py-4">Pioneer In Everything</h1>
-            <p>
+            <h1 className="font-semibold text-[18px]  py-4">Pioneer In Everything</h1>
+            <p className="text-gray-600">
               We’re obsessed with creating a delightful user experience for you
               and your team every step of the way-and it shows.
             </p>
@@ -34,16 +34,16 @@ function Explore() {
           <div className="lg:flex lg:flex-row block">
             <div className="text-lg py-4 pr-[50px]">
               <h2 className="text-[28px] ">01</h2>
-              <h1 className="font-semibold py-4">Pioneer In Everything</h1>
-              <p>
+              <h1 className="font-semibold text-[18px] py-4">Pioneer In Everything</h1>
+              <p className="text-gray-600">
                 We’re obsessed with creating a delightful user experience for
                 you and your team every step of the way-and it shows.
               </p>
             </div>
             <div className="text-lg py-4 pr-[50px]">
               <h2 className="text-[28px] ">01</h2>
-              <h1 className="font-semibold py-4 ">Pioneer In Everything</h1>
-              <p>
+              <h1 className="font-semibold text-[18px] py-4 ">Pioneer In Everything</h1>
+              <p className="text-gray-600">
                 We’re obsessed with creating a delightful user experience for
                 you and your team every step of the way-and it shows.
               </p>

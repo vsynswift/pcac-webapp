@@ -51,7 +51,7 @@ function Form() {
     <div>
       <div className="lg:flex lg:flex-col lg:gap-10 block">
         <h1 className="lg:text-5xl text-2xl py-4 lg:p-0">
-          Get In Touch <span className="text-gray-400"> With Us </span>{" "}
+          Get In Touch <span className="text-secondaryTextColor"> With Us </span>{" "}
         </h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting

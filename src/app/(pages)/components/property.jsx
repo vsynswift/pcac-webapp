@@ -1,7 +1,7 @@
-import Mobileimage from "../../../assets/images/mobile.png";
+import Mobileimage from "../../assets/images/mobile.png";
 import Image from "next/image";
-import hero4 from "../../../assets/images/hero4.png";
-import hero5 from "../../../assets/images/hero5.png";
+import hero4 from "../../assets/images/hero4.png";
+import hero5 from "../../assets/images/hero5.png";
 
 function Property() {
   return (

@@ -2,7 +2,7 @@
 
 import { Button, Drawer } from "flowbite-react";
 import { useState } from "react";
-import NavList from "../navList";
+import NavList from "./navList";
 import { CiMenuFries } from "react-icons/ci";
 
 function DrawerMenu() {

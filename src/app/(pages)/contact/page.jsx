@@ -1,5 +1,5 @@
-import Property from "../(home)/components/property";
 import BreadCamps from "../components/breadCamp";
+import Property from "../components/property";
 import ContactInfo from "./components/contactInfo";
 import GoogleMap from "./components/map";
 

@@ -8,11 +8,11 @@ function About() {
   return (
     <div className="lg:pt-[100px] lg:px-[80px] pt-20 px-4 relative lg:mt-[100px]">
       <div>
-        <h6 className="text-lg">About Us</h6>
+        <h6 className="text-lg font-semibold">ABOUT US</h6>
       </div>
       <div>
-        <h1 className="lg:text-5xl lg:leading-none lg:font-semibold text-2xl">Setting Up Standard For</h1>
-        <span className="lg:text-5xl lg:leading-none lg:font-semibold text-gray-400 text-2xl">
+        <h1 className="lg:text-5xl lg:font-semibold text-2xl">Setting Up Standard For</h1>
+        <span className="lg:text-5xl lg:font-semibold text-secondaryTextColor text-2xl">
           Tricity Properties
         </span>
       </div>
@@ -22,11 +22,11 @@ function About() {
         </div>
       </div>
       <div className=" flex flex-row relative lg:justify-end justify-center">
-        <Card className="max-w-sm lg:my-[120px] my-[10px] lg:-mr-[10rem] mr-0 z-20">
-          <h5 className="text-lg font-bold tracking-tight text-black dark:text-white">
+        <Card className="lg:max-w-80 lg:my-[120px] my-[10px] lg:-mr-[10rem] mr-0 z-20 rounded-none">
+          <h5 className="text-lg font-semibold tracking-tight text-black dark:text-white">
             Latest News
           </h5>
-          <p className="font-normal text:lg text-gray-500 dark:text-gray-400">
+          <p className="font-normal text:lg text-gray-600 dark:text-gray-400">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words.

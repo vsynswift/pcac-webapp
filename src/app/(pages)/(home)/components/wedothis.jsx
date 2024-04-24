@@ -6,11 +6,11 @@ function Wedothis() {
     <div className="lg:-mt-[80px] mt-0">
       <img className="hidden lg:block absolute left-0 lg:w-1/2 h-screen " src={map2.src} />
       <div className="lg:grid lg:grid-cols-2 lg:gap-[100px] block lg:pt-[-80px] lg:p-[80px] p-4">
-        <div className="lg:text-5xl lg:leading-none text-2xl lg:pt-[80px] pt-4 font-semibold">
+        <div className="lg:text-5xl text-2xl lg:pt-[80px] pt-4 font-semibold">
           <h1>We Do This</h1>
-          <h2 className="text-gray-400">For A Single Cause</h2>
+          <h2 className="text-secondaryTextColor">For A Single Cause</h2>
         </div>
-        <div className="flex flex-col lg:gap-4 lg:pl-8 text-gray-500 lg:pt-[80px] pt-4">
+        <div className="flex flex-col lg:gap-4 lg:pl-8 text-gray-600 lg:pt-[80px] pt-4">
           <p>
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
