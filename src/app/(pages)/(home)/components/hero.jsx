@@ -1,3 +1,6 @@
+"use client";
+
+import { Carousel } from "flowbite-react";
 import hero1 from "../../../assets/images/hero1.png";
 import hero2 from "../../../assets/images/hero2.png";
 import hero3 from "../../../assets/images/hero3.png";
@@ -10,12 +13,34 @@ import DefaultButton from "../../components/defaultButton";
 function Hero() {
   return (
     <div className="bg-cover">
-      <img className=" absolute right-0 w-1/2 h-screen" src={map1.src} />
+      <img
+        className=" absolute right-0 w-1/2 h-screen hidden lg:block"
+        src={map1.src}
+      />
 
       <div className="lg:grid lg:grid-cols-2 block lg:gap-12 justify-between px-[20px] py-[20px] lg:px-[80px] lg:py-[40px] items-center">
-        <div className="relative">
-          <div>
+        <div className="relative w-full">
+          <div className="hidden lg:flex justify-center lg:justify-start">
             <Image className="" src={hero1} alt="" />
+          </div>
+          <div className="lg:hidden h-56 sm:h-80 xl:h-80 2xl:h-96">
+            <Carousel >
+            <Image
+              className=""
+              src={hero1}
+              alt=""
+            />
+            <Image
+              className=""
+              src={hero2}
+              alt=""
+            />
+              <Image
+              className=""
+              src={hero3}
+              alt=""
+            />
+            </Carousel>
           </div>
           <div className="hidden lg:block">
             <Image
@@ -30,6 +55,7 @@ function Hero() {
             />
           </div>
         </div>
+
         <div className="relative">
           <div className=" flex flex-col gap-2 lg:gap-4 pt-4">
             <h1 className="lg:text-5xl text-2xl lg:leading-none">
@@ -45,7 +71,7 @@ function Hero() {
             </p>
             <div className="px-0 ">
               <DefaultButton
-                className="bg-primaryColor enabled:hover:bg-primaryColor"
+                className="bg-primaryColor enabled:hover:bg-primaryColor justify-start lg:justify-center"
                 title={"Contact Us"}
               />
             </div>

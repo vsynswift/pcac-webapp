@@ -30,18 +30,18 @@ export function Testimonials() {
     },
   ];
   return (
-    <div className="h-[600px] text-center flex flex-col lg:w-[900px] items-center m-auto justify-center p-4 py-10 lg:p-[80px]">
+    <div className="lg:h-[610px] h-[500px] text-center flex flex-col lg:w-[900px] items-center m-auto justify-center p-4 pt-10 lg:p-[80px]">
       <div>
         <p className="text-lg">What People Says</p>
         <h1 className="lg:text-5xl lg:leading-none font-semibold text-2xl">Trusted by peoples around</h1>
         <span className="text-gray-400  font-semibold text-2xl lg:text-5xl">the tricity.</span>
       </div>
-      <Carousel
+      <Carousel 
         onSlideChange={(index) => console.log("onSlideChange()", index)}
       >
         {users.map((user) => (
-          <div className="flex flex-col items-center text-center justify-center   ">
-            <Image className="lg:w-20 w-10 h-10 lg:h-20" src={Testimonialpic} />
+          <div className="flex flex-col items-center text-center justify-center ">
+            <Image className="lg:w-16 w-10 h-10 lg:h-16" src={Testimonialpic} />
             <p className=" py-4"> {user.content} </p>
             <Image className="w-10 h-10" src={Testimonialprofile} />
             <h1>{user.name}</h1>

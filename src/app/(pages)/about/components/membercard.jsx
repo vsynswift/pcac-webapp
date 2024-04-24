@@ -42,8 +42,8 @@ const members = [
 function MemberCard({ className }) {
   return members.map((member) =>
     member.reverse === "true" ? (
-      <div className="lg:flex block items-center group flex-row-reverse py-4">
-        <div className="lg:flex block flex-1 flex-col gap-4 px-10 border-r-8 border-primaryColor">
+      <div className="flex flex-col-reverse items-center group lg:flex-row-reverse py-4">
+        <div className="flex flex-1 flex-col gap-4 lg:px-10 py-4 border-r-0 lg:border-r-8 lg:border-primaryColor">
           <div>
             <p>{member.content}</p>
           </div>
@@ -65,8 +65,8 @@ function MemberCard({ className }) {
         </div>
       </div>
     ) : (
-      <div className="lg:flex items-center group py-4 ">
-        <div className="lg:flex flex-1 flex-col gap-4 px-10 border-l-8 border-primaryColor">
+      <div className="flex items-center group py-4 flex-col-reverse lg:flex-row">
+        <div className="flex flex-1 flex-col gap-4 lg:px-10 py-4 border-l-0 lg:border-l-8 lg:border-primaryColor">
           <div>
             <p>{member.content}</p>
           </div>

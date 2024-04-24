@@ -6,6 +6,7 @@ import { MdLocalPhone } from "react-icons/md";
 import { BiSolidPrinter } from "react-icons/bi";
 import NavList from "./navList";
 import Image from "next/image";
+import Link from "next/link"
 import Logo from "../../assets/images/logo.png";
 
 const contentDetails = [
@@ -65,7 +66,9 @@ function Footer() {
       </div>
       <div className="lg:flex justify-between lg:px-[160px]  px-4 py-4">
         <div>
-          <Image src={Logo} />
+          <Link href="/">
+            <Image src={Logo} />
+          </Link>
         </div>
         <div>
           <NavList />

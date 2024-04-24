@@ -6,7 +6,7 @@ import { FaPlay } from "react-icons/fa";
 function TheVideo() {
   return (
     <div  style={{ background: 'linear-gradient(90deg, #000000 15%, rgba(156 156 156) 70%)' }}
-    className=" relative bg-cover my-[100px]">
+    className=" relative bg-cover lg:my-[100px] my-[50px]">
       <img
         className="absolute left-0 opacity-[0.255] h-full w-full"
         src={Bgvideoimage.src}

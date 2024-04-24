@@ -5,7 +5,7 @@ function Subscribe() {
   return (
     <div className="text-center flex justify-center items-center p-4 lg:p-[80px]">
       <img
-        className="absolute lg:h-[450px] h-[300px] left-0"
+        className="absolute lg:h-[450px] h-[300px] w-full left-0"
         src={Bgsubscribe.src}
       />
 

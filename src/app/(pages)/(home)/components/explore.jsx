@@ -19,7 +19,7 @@ function Explore() {
       </div>
       <div className="lg:grid lg:grid-cols-3 block gap-10 p-4 lg:px-[80px]">
         <div className="w-full">
-          <img src={Explore1.src} className="w-full h-96" />
+          <img src={Explore1.src} className="w-full lg:h-96 h-80" />
           <div className="text-lg py-4 pr-[50px]">
             <h2 className="text-[28px] ">01</h2>
             <h1 className="font-semibold py-4">Pioneer In Everything</h1>
@@ -30,7 +30,7 @@ function Explore() {
           </div>
         </div>
         <div className="lg:col-span-2 block w-full ">
-          <img src={Explore2.src} className="w-full h-96" />
+          <img src={Explore2.src} className="w-full lg:h-96 h-56" />
           <div className="lg:flex lg:flex-row block">
             <div className="text-lg py-4 pr-[50px]">
               <h2 className="text-[28px] ">01</h2>

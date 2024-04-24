@@ -12,7 +12,7 @@ function AnnouncementBar () {
     return(
         <div className="lg:flex lg:justify-between h-10 lg:items-center px-[80px] text-xs hidden">
             <div>
-                <h1 className="text-white font-bold">Property Consultant Association Chandigarh -<span className="font-normal text-gray-300 ml-2">For all your property requirements</span></h1>
+                <h1 className="text-white text-[12px] font-bold">Property Consultant Association Chandigarh -<span className="font-normal text-gray-300 ml-2">For all your property requirements</span></h1>
             </div>
             <div className="flex flex-row  text-white items-center text-sm">
             {contactDetail.map((item, index) => (
@@ -20,7 +20,7 @@ function AnnouncementBar () {
                     <div>
                         {item.icons}
                     </div>
-                    <span>{item.name}</span>
+                    <span className="text-[12px]">{item.name}</span>
                 </div>
             )
 

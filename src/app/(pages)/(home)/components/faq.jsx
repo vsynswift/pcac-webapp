@@ -3,12 +3,36 @@ import { FiMinus, FiPlus } from "react-icons/fi";
 import DefaultButton from "../../components/defaultButton";
 import { Accordion } from "flowbite-react";
 
+const data = [
+  {
+    question : "What is Flowbite?",
+    answer : "Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.",
+  },
+  {
+    question : "Can I switch to s different plan?",
+    answer : "Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.",
+  },
+  {
+    question : "Do you offer non-disclouser signature?",
+    answer : "Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.",
+  },
+  {
+    question : "Do you issue loans?",
+    answer : "Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.",
+  },
+  {
+    question : "Are there any long-terms contracts?",
+    answer : "Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.",
+  },
+]
+
+
 function Faq(props) {
   const [open, setOpen] = React.useState(1);
 
   const handleOpen = (value) => setOpen(open === value ? false : value);
   return (
-    <div className="lg:grid lg:grid-cols-6 gap-10 block items-top my-[100px] lg:p-[80px] p-4 justify-center">
+    <div className="lg:grid lg:grid-cols-6 gap-10 block items-top lg:my-[100px] my-50 lg:p-[80px] p-4 justify-center">
       <div className="lg:grid lg:col-span-3 flex flex-col gap-4 lg:gap-8">
         <div>
           <p className="block font-sans text-base antialiased text-xl font-semibold leading-none text-secondaeryColor">
@@ -39,9 +63,21 @@ function Faq(props) {
         </div>
       </div>
       <div className="lg:grid lg:col-span-3 block">
+      
         <Accordion className="border-none">
+        {data.map((data) => (
           <Accordion.Panel>
-            <Accordion.Title>What is Flowbite?</Accordion.Title>
+            <Accordion.Title className="hover:bg-transparent focus:ring-0 bg-transparent text-lg font-semibold text-black">{data.question}</Accordion.Title>
+            <Accordion.Content>
+              {data.answer}
+            </Accordion.Content>
+          </Accordion.Panel>
+          
+      ))}
+      </Accordion>
+        {/* <Accordion className="border-none">
+          <Accordion.Panel>
+            <Accordion.Title className="hover:bg-transparent focus:ring-0 bg-transparent">What is Flowbite?</Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
                 Flowbite is an open-source library of interactive components
@@ -56,7 +92,7 @@ function Faq(props) {
             </Accordion.Content>
           </Accordion.Panel>
           <Accordion.Panel>
-            <Accordion.Title>Is there a Figma file available?</Accordion.Title>
+            <Accordion.Title className="hover:bg-transparent focus:ring-0 bg-transparent">Is there a Figma file available?</Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
                 Flowbite is first conceptualized and designed using the Figma
@@ -77,7 +113,7 @@ function Faq(props) {
             </Accordion.Content>
           </Accordion.Panel>
           <Accordion.Panel>
-            <Accordion.Title>
+            <Accordion.Title className="hover:bg-transparent focus:ring-0 bg-transparent">
               What are the differences between Flowbite and Tailwind UI?
             </Accordion.Title>
             <Accordion.Content>
@@ -117,7 +153,7 @@ function Faq(props) {
               </ul>
             </Accordion.Content>
           </Accordion.Panel>
-        </Accordion>
+        </Accordion> */}
       </div>
     </div>
   );

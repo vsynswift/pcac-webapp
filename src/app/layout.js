@@ -3,7 +3,7 @@ import localFont from 'next/font/local'
 import "./globals.css";
 import DefaultHeader from './(pages)/components/header/defaultHeader';
 import Footer from './(pages)/components/footer';
-
+import { ThemeModeScript } from "flowbite-react";
 const opensans = localFont({
   
   src: [
@@ -46,6 +46,9 @@ export default function RootLayout({ children }) {
   return (
 
     <html lang="en">
+      <head>
+        <ThemeModeScript />
+      </head>
       <body className={`${opensans.variable} font-sans`}>
       <DefaultHeader />
       {children} 

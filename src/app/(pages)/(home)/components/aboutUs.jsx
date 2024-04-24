@@ -21,8 +21,8 @@ function About() {
           <img className=" lg:absolute " src={about1.src} />
         </div>
       </div>
-      <div className=" flex flex-row relative justify-end">
-        <Card className="max-w-sm lg:my-[120px] my-[10px] lg:-mr-[10rem] mr-0 z-50">
+      <div className=" flex flex-row relative lg:justify-end justify-center">
+        <Card className="max-w-sm lg:my-[120px] my-[10px] lg:-mr-[10rem] mr-0 z-20">
           <h5 className="text-lg font-bold tracking-tight text-black dark:text-white">
             Latest News
           </h5>
