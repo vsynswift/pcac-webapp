@@ -30,19 +30,23 @@ export function Testimonials() {
     },
   ];
   return (
-    <div className="lg:h-[800px] h-[500px] text-center flex flex-col lg:w-[1000px] items-center m-auto justify-center p-4 pt-10 lg:p-[80px]">
+    <div className="lg:h-[800px] h-[600px] text-center flex flex-col lg:w-[1000px] items-center m-auto justify-center p-4 pt-10 lg:p-[80px]">
       <div>
         <p className="text-lg">What People Says</p>
-        <h1 className="lg:text-5xl lg:leading-none font-semibold text-2xl">Trusted by peoples around</h1>
-        <span className="text-secondaryTextColor font-semibold text-2xl lg:text-5xl">the tricity.</span>
+        <h1 className="lg:text-5xl lg:leading-none font-semibold text-2xl">
+          Trusted by peoples around
+        </h1>
+        <span className="text-secondaryTextColor font-semibold text-2xl lg:text-5xl">
+          the tricity.
+        </span>
       </div>
-      <Carousel 
+      <Carousel
         onSlideChange={(index) => console.log("onSlideChange()", index)}
       >
         {users.map((user) => (
           <div className="flex flex-col items-center text-center justify-center ">
             <Image className="lg:w-16 w-10 h-10 lg:h-12" src={Testimonialpic} />
-            <p className=" py-4 font-semibold text-xl"> {user.content} </p>
+            <p className=" py-4 font-semibold lg:text-xl text-sm"> {user.content} </p>
             <Image className="w-20 h-20" src={Testimonialprofile} />
             <h1 className="font-semibold text-xl">{user.name}</h1>
             <p className="text-gray-600">{user.position}</p>

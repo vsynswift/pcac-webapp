@@ -43,13 +43,14 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
 
     <html lang="en">
       <head>
         <ThemeModeScript />
       </head>
-      <body className={`${opensans.variable} font-sans`}>
+      <body className={`${opensans.variable} font-sans lg:container-xl container mx-auto `}>
       <DefaultHeader />
       {children} 
       <Footer />

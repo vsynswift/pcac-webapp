@@ -94,7 +94,7 @@ function Form() {
               ))}
             </div>
             <div className="w-full p-2">
-              <DefaultButton className="w-full " title={"Send Message"} />
+              <DefaultButton classnames="w-full" title={"Send Message"} />
             </div>
           </form>
         </div>

@@ -13,6 +13,12 @@ module.exports = {
   ],
   
   theme: {
+    screens: { 
+      'sm': '640px', 
+      'md': '1024px', 
+      'lg': '1280px', 
+      'xl': '1440px', 
+    }, 
     extend: {
       colors: {
         primaryColor: "#0057FF",
@@ -20,6 +26,7 @@ module.exports = {
         secondaryColor: "#0057FFB2",
         transparentColor: "#EEEEEE"
       },
+      
       boxShadow: {
         'xl': '0px 0px 40px 10px #F2F6FF;',
       }
@@ -33,6 +40,7 @@ module.exports = {
       "5xl": "50px",
       "2xl": "25px",
     },
+    
   },
   
   plugins: [

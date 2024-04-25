@@ -14,7 +14,7 @@ function Hero() {
   return (
     <div className="bg-cover">
       <img
-        className=" absolute right-0 w-1/2 h-screen hidden lg:block"
+        className=" absolute left-2/4 hidden lg:block"
         src={map1.src}
       />
 

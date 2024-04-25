@@ -13,12 +13,17 @@ function DrawerMenu() {
   return (
     <>
       <div className="items-center justify-center lg:hidden">
-        <Button className="enabled:hover:bg-primaryColor bg-[#0057ffe8] focus:ring-0 hover:bg-primaryColor" onClick={() => setIsOpen(true)}><CiMenuFries /></Button>
+        <Button
+          className="enabled:hover:bg-primaryColor bg-[#0057ffe8] focus:ring-0 hover:bg-primaryColor"
+          onClick={() => setIsOpen(true)}
+        >
+          <CiMenuFries />
+        </Button>
       </div>
-      <Drawer position="right"  open={isOpen} onClose={handleClose}>
+      <Drawer position="right" open={isOpen} onClose={handleClose}>
         <Drawer.Header title="PCAC" />
         <Drawer.Items onClick={handleClose}>
-          <NavList className="flex flex-col"/>
+          <NavList className="flex flex-col" />
         </Drawer.Items>
       </Drawer>
     </>

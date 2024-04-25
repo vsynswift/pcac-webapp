@@ -9,7 +9,7 @@ import { Carousel } from "flowbite-react";
 
 function AboutPCAC() {
   return (
-    <div className="bg-cover">
+    <div className="bg-cover relative">
       <div className="lg:flex gap-8 block justify-between px-[20px] py-[20px] lg:px-[80px] lg:py-[40px] items-center">
         <div className="lg:w-[500px] w-full">
           <div className="hidden lg:block">
@@ -42,10 +42,9 @@ function AboutPCAC() {
               <span className="font-semibold tracking-normal lg:text-5xl text-secondaryTextColor lg:leading-none">
                 Advice and Quality Services.
               </span>
-              
             </div>
             <div>
-            <p className="lg:text-lg text-sm italic ">
+              <p className="lg:text-lg text-sm italic ">
                 Ut enim ad minim veniam, quis nostrud nisi et exercitation the
                 ullamco laboris containing Lorem nisi ut aliquip.
               </p>

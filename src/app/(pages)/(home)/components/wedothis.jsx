@@ -4,7 +4,7 @@ import Link from "next/link";
 function Wedothis() {
   return (
     <div className="lg:-mt-[80px] mt-0">
-      <img className="hidden lg:block absolute left-0 lg:w-1/2 h-screen " src={map2.src} />
+      <img className="hidden lg:block absolute" src={map2.src} />
       <div className="lg:grid lg:grid-cols-2 lg:gap-[100px] block lg:pt-[-80px] lg:p-[80px] p-4">
         <div className="lg:text-5xl text-2xl lg:pt-[80px] pt-4 font-semibold">
           <h1>We Do This</h1>

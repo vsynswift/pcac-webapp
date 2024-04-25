@@ -23,10 +23,10 @@ function Property() {
         </div>
         <div className="flex gap-4">
           <a href="#">
-            <Image src={hero4} className="h-15" alt="hero4" />
+            <Image src={hero4} className="h-12 w-40" alt="hero4" />
           </a>
           <a href="#">
-            <Image src={hero5} className="h-15" alt="hero5" />
+            <Image src={hero5} className="h-12 w-40" alt="hero5" />
           </a>
         </div>
       </div>

@@ -1,6 +1,6 @@
 "use client";
 import { Button, Navbar } from "flowbite-react";
-import Link from "next/link"
+import Link from "next/link";
 import Logo from "../../../assets/images/logo.png";
 import Image from "next/image";
 import Navlist from "./navList";
@@ -14,8 +14,8 @@ function DefaultHeader() {
       <div className="hidden lg:block bg-primaryColor py-1">
         <AnnouncementBar />
       </div>
-      <Navbar className="py-5">
-        <div className="flex flex-1 justify-between sm:w-full">
+      <Navbar className="lg:px-0 lg:mx-[80px] mx-4">
+        <div className="flex flex-1 justify-between sm:w-full ">
           <div>
             <Link href="/">
               <Image src={Logo} className="" alt="PCAC" />
@@ -30,7 +30,10 @@ function DefaultHeader() {
             <Navlist />
           </div>
           <div className="lg:flex md:order-2 hidden ml-2 ">
-            <DefaultButton classnames="!bg-gray-100 hover:bg-gray-300 border border-gray-200 text-black" title={"Request for Call"} />
+            <DefaultButton
+              classnames="!bg-gray-100 hover:bg-gray-300 border border-gray-200 text-black"
+              title={"Request for Call"}
+            />
           </div>
           <div className="lg:flex md:order-2 hidden ml-2">
             <DefaultButton className="" title={"Login"} />

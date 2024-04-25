@@ -5,13 +5,14 @@ function Subscribe() {
   return (
     <div className="text-center flex justify-center items-center p-4 lg:p-[80px]">
       <img
-        className="absolute lg:h-[450px] h-[300px] w-full left-0"
+        className="absolute lg:h-[450px] h-[300px] "
         src={Bgsubscribe.src}
       />
-
-      <div className="relative flex flex-col text-center items-center p-4 lg:py-[50px] justify-center h-full w-full backdrop-blur bg-white/15 ">
+      <div className="relative flex flex-col text-center items-center p-4 lg:py-[50px] justify-center h-full w-full backdrop-blur bg-[#9c9c9c26]">
         <div className="relative flex flex-col text-center items-center gap-4">
-          <h1 className="lg:text-5xl font-semibold text-2xl text-white ">Subscribe</h1>
+          <h1 className="lg:text-5xl font-semibold text-2xl text-white ">
+            Subscribe
+          </h1>
           <p className="text-sm text-white">
             Subscribe our newsletter too stay updated every moment.
           </p>

@@ -6,7 +6,7 @@ import { MdLocalPhone } from "react-icons/md";
 import { BiSolidPrinter } from "react-icons/bi";
 import NavList from "../header/navList";
 import Image from "next/image";
-import Link from "next/link"
+import Link from "next/link";
 import Logo from "../../../assets/images/logo.png";
 
 const contentDetails = [
@@ -45,9 +45,9 @@ function Footer() {
           {contentDetails.map((item, index) => (
             <div
               key={index}
-              className="flex items-center gap-2 mb-3 md:mb-0 text-left md:text-center lg:text-right xl:text-center p-2 lg:p-5"
+              className="flex lg:items-center gap-2 md:mb-0 text-left md:text-center lg:text-right xl:text-center p-2 lg:p-5"
             >
-              <div className="text-primaryColor border-solid">{item.icons}</div>
+              <div className="text-primaryColor text-[22px] border-solid">{item.icons}</div>
               <span>{item.name}</span>
             </div>
           ))}

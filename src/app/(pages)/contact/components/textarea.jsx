@@ -32,7 +32,7 @@ const FormTextArea = ({
       
         <textarea
           name={name}
-          className={`font-medium lg:w-[660px] w-[340px] mt-1 p-2 pl-3 h-[100px]  rounded-lg border ${redBorder} text-[#02295a] text-[15px] hover:border-[#02295a] focus:border-white focus:ring-[#bfe2fd]`}
+          className={`font-medium lg:w-[660px] w-[340px] mt-1 p-2 pl-3 h-[100px] border-gray-300 rounded-lg focus:ring-gray-300 focus:border-0`}
           type="text"
           placeholder={placeholder}
           value={value}

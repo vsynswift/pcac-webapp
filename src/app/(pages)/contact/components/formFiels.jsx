@@ -32,7 +32,7 @@ const FormField = ({
       
         <input
           name={name}
-          className={`font-medium lg:w-[322px] w-[340px]  mt-1 p-2 pl-3  rounded-lg border ${redBorder} text-[#02295a] text-[15px] hover:border-[#02295a] focus:border-white focus:ring-[#bfe2fd]`}
+          className={`font-medium lg:w-[322px] w-[340px]  mt-1 p-2 pl-3 rounded-lg border ${redBorder} text-[#02295a] text-[15px] focus:ring-gray-300 focus:border-0 focus:outline-transparent `}
           type="text"
           placeholder={placeholder}
           value={value}
