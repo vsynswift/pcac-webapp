@@ -7,6 +7,8 @@ import Navlist from "./navList";
 import DefaultButton from "../defaultButton";
 import AnnouncementBar from "./announcementBar";
 import DrawerMenu from "./drawerMenu";
+import Login from "../../../(auth)/login/page.jsx"
+import { BiLogIn } from "react-icons/bi";
 
 function DefaultHeader() {
   return (
@@ -36,7 +38,9 @@ function DefaultHeader() {
             />
           </div>
           <div className="lg:flex md:order-2 hidden ml-2">
-            <DefaultButton className="" title={"Login"} />
+            <DefaultButton className="" title={"Login"} href="/login" as={Link}
+
+            />
           </div>
         </div>
       </Navbar>

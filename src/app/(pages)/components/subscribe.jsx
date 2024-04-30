@@ -1,6 +1,6 @@
 import DefaultButton from "./defaultButton";
 import Bgsubscribe from "../../assets/images/bgsubscribe.png";
-import DefaultInput from "./defaultInput";
+import DefaultInput from "./input/defaultInput";
 function Subscribe() {
   return (
     <div className="text-center flex justify-center items-center lg:py-[80px] container mx-auto">
