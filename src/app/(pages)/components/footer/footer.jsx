@@ -27,8 +27,8 @@ const socialIcons = [
 
 function Footer() {
   return (
-    <div className="flex flex-col justify-center text-center p-2 ">
-      <div className="flex flex-col gap-2 justify-center border-b w-full pb-4">
+    <div className="flex flex-col justify-center text-center container mx-auto">
+      <div className="flex flex-col gap-2 justify-center border-b w-full p-4">
         <h1 className="lg:text-5xl text-2xl font-semibold">
           Buy
           <span className="text-primaryColor">.</span> Sell
@@ -64,7 +64,7 @@ function Footer() {
           ))}
         </div>
       </div>
-      <div className="lg:flex justify-between lg:px-[160px]  px-4 py-4">
+      <div className="lg:flex justify-between py-4">
         <div>
           <Link href="/">
             <Image src={Logo} />

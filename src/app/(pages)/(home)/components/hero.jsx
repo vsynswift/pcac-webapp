@@ -12,13 +12,13 @@ import DefaultButton from "../../components/defaultButton";
 
 function Hero() {
   return (
-    <div className="bg-cover">
+    <div className="bg-cover container mx-auto">
       <img
         className=" absolute left-2/4 hidden lg:block"
         src={map1.src}
       />
 
-      <div className="lg:grid lg:grid-cols-2 block lg:gap-12 justify-between px-[20px] py-[20px] lg:px-[80px] lg:py-[40px] items-center">
+      <div className="lg:grid lg:grid-cols-2 block lg:gap-12 justify-between py-[20px] lg:py-[40px] items-center">
         <div className="relative w-full">
           <div className="hidden lg:flex justify-center lg:justify-start">
             <Image className="" src={hero1} alt="" />

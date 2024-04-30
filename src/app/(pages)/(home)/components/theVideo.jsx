@@ -5,13 +5,13 @@ import { FaPlay } from "react-icons/fa";
 
 function TheVideo() {
   return (
-    <div  style={{ background: 'linear-gradient(90deg, rgb(0, 0, 0 ) 10%, rgb(102 102 102) 100%)' }}
-    className=" relative bg-cover lg:my-[100px] my-[50px]">
+    <div  style={{ background: 'linear-gradient(90deg, rgb(0, 0, 0 ) 10%, rgb(102 102 102) 100%) ' }}
+    className=" relative bg-cover lg:my-[100px] my-[30px] container mx-auto">
       <img
         className="absolute left-0 opacity-[0.35] h-full w-full"
         src={Bgvideoimage.src}
       />
-      <div className="relative lg:p-[80px] p-4 lg:flex  justify-between">
+      <div className="relative py-8  lg:flex  justify-between">
         <div className=" flex flex-col lg:gap-16 gap-4 lg:w-2/5">
           <h1 className=" lg:text-5xl text-2xl text-white font-light">
             <span className="font-semibold">

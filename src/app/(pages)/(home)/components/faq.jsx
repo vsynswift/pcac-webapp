@@ -32,7 +32,7 @@ function Faq(props) {
 
   const handleOpen = (value) => setOpen(open === value ? false : value);
   return (
-    <div className="lg:grid lg:grid-cols-6 gap-10 block items-top lg:my-[100px] my-50 lg:p-[80px] p-4 justify-center">
+    <div className="lg:grid lg:grid-cols-6 gap-10 block items-top lg:my-[100px] my-50 container mx-auto justify-center">
       <div className="lg:grid lg:col-span-3 flex flex-col gap-4 lg:gap-8">
         <div>
           <p className="block font-sans text-base antialiased text-xl font-semibold leading-none text-secondaeryColor">

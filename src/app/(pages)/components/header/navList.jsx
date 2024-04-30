@@ -1,21 +1,25 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 const menuItems = [
   { name: "Home", href: "/" },
-  { name: "About Us",  href: "about" },
-  { name: "Contact Us",href: "contact" },
-  { name: "News",href: "news" },
+  { name: "News",href: "/news" },
+  { name: "About Us",  href: "/about" },
+  { name: "Gallery",href: "/gallery" },
+  { name: "Contact Us",href: "/contact" },
+
 ];
 
-function NavList() {
-  const [activeIndex, setActiveIndex] = useState(0);
+function NavList({ }) {
+  const [activeIndex, setActiveIndex] = useState(" ");
+  const pathname = usePathname();
 
-  const handleClick = (index) => {
-    setActiveIndex(index);
-  };
+  useEffect (() => {
+    setActiveIndex(pathname);
+  },[pathname] );
 
   return (
     <ul className="mt-2 mb-4 flex lg:flex-row flex-col gap-2 lg:mb-0 lg:mt-0 items-start lg:items-center lg:gap-8 group ">
@@ -23,18 +27,15 @@ function NavList() {
         <div key={index} className="justify-center flex flex-col items-center">
           <Link
             variant="small"
-            color={activeIndex === index ? "blue" : "gray"} 
+            color={activeIndex === item.href ? "blue" : "gray"} 
             className={`pt-1 px-2 text-[15px] ${
-              activeIndex === index ? "font-semibold" : ""
+              activeIndex === item.href ? "font-semibold" : ""
             }`}
-            href={item.href}
-            onClick={() => handleClick(index)} 
-          >
+            href={item.href}>
             {item.name}
           </Link>
           <div
-            className={`hidden lg:block rounded-full w-1 h-1 ${
-              activeIndex === index ? "bg-primaryColor" : ""
+            className={`hidden lg:block rounded-full w-1 h-1 ${activeIndex === item.href ? "bg-primaryColor" : ""
             }`}
           ></div>
         </div>

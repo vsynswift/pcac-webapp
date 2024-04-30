@@ -14,7 +14,7 @@ function DefaultHeader() {
       <div className="hidden lg:block bg-primaryColor py-1">
         <AnnouncementBar />
       </div>
-      <Navbar className="lg:px-0 lg:mx-[80px] mx-4">
+      <Navbar className="container mx-auto p-0 lg:px-0 py-2">
         <div className="flex flex-1 justify-between sm:w-full ">
           <div>
             <Link href="/">

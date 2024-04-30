@@ -5,7 +5,8 @@ import hero5 from "../../assets/images/hero5.png";
 
 function Property() {
   return (
-    <div className="bg-primaryColor border rounded-lg lg:rounded-[60px] lg:m-[80px] relative lg:flex lg:flex-row justify-between pt-4 mx-4 px-4 lg:p-[80px]">
+    <div className="container mx-auto">
+      <div className=" lg:mx-auto bg-primaryColor border rounded-lg lg:rounded-[60px] lg:p-[80px] p-0 px-4 pt-4 relative lg:flex lg:flex-row justify-between">
       <div className="flex flex-1 flex-col gap-2">
         <h1 className="lg:text-5xl text-2xl text-white lg:leading-none">
           Get your property
@@ -36,6 +37,7 @@ function Property() {
           <Image src={Mobileimage} />
         </div>
       </div>
+    </div>
     </div>
   );
 }

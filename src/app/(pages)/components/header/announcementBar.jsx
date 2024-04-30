@@ -24,7 +24,7 @@ function AnnouncementBar() {
     },
   ];
   return (
-    <div className="lg:flex lg:justify-between h-10 lg:items-center px-[80px] text-xs hidden">
+    <div className="lg:flex lg:justify-between h-10 lg:items-center container mx-auto text-xs hidden">
       <div>
         <h1 className="text-white text-[12px] font-bold">
           Property Consultant Association Chandigarh -

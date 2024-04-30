@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
       <head>
         <ThemeModeScript />
       </head>
-      <body className={`${opensans.variable} font-sans lg:container-xl container mx-auto `}>
+      <body className={`${opensans.variable} font-sans`}>
       <DefaultHeader />
       {children} 
       <Footer />

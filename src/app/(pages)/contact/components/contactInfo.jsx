@@ -43,7 +43,7 @@ const socialIcons = [
 
 function ContactInfo() {
   return (
-    <div className="lg:flex p-4 lg:pt-[80px] lg:px-[80px] gap-12 items-center block lg:mx-[80px]">
+    <div className="lg:flex lg:pt-[80px] container mx-auto gap-12 items-center block">
       <div className="bg-primaryColor text-white px-9 py-4 w-full lg:w-2/6">
         {data.map((data) => (
           <div className="flex gap-4 py-4">

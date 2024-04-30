@@ -2,7 +2,7 @@ import MemberCard from "./membercard";
 
 function TeamMember() {
   return (
-    <div className="lg:m-[80px] p-4">
+    <div className="container mx-auto py-8">
       <div className="lg:flex block lg:gap-24 items-end">
         <div className=" flex flex-col gap-4">
           <div>

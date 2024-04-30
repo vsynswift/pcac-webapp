@@ -4,8 +4,8 @@ import Explore2 from "../../../assets/images/explore2.png";
 
 function Explore() {
   return (
-    <div className="lg:-mt-[80px] pt-[80px]">
-      <div className="lg:flex lg:flex-row justify-between block lg:pt-[80px] lg:px-[80px] pb-8 p-4 items-end">
+    <div className="container mx-auto">
+      <div className="lg:flex lg:flex-row justify-between block items-end py-8">
         <div className="lg:text-5xl text-2xl font-semibold">
           <h1>Explore Our</h1>
           <h2 className="text-secondaryTextColor">PCAC Playbook</h2>
@@ -17,7 +17,7 @@ function Explore() {
           ></DefaultButton>
         </div>
       </div>
-      <div className="lg:grid lg:grid-cols-3 block gap-10 p-4 lg:px-[80px]">
+      <div className="lg:grid lg:grid-cols-3 block gap-10 ">
         <div className="w-full">
           <img src={Explore1.src} className="w-full lg:h-96 h-80" />
           <div className="text-lg py-4 pr-[50px]">

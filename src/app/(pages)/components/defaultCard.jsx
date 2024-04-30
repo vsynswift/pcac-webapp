@@ -30,13 +30,13 @@ function DefaultCard() {
   ];
 
   return (
-    <div className="lg:grid lg:grid-cols-3 lg:gap-20 lg:px-[80px] pt-5 text-center items-center">
+    <div className="lg:grid lg:grid-cols-3 lg:gap-20 gap-8 text-center items-center">
       {carddata.map((data) => (
         <div className="bg-white border-collapse group border-transparent rounded-none cursor-pointer shadow-xl group">
           <div className="flex justify-center">
             <div className="flex items-center justify-center h-2 opacity-0 w-40 bg-primaryColor group-hover:opacity-100 rounded-b-xl " />
           </div>
-          <div className="flex flex-col items-center justify-center gap-8 lg:py-12 lg:px-8 bg-white">
+          <div className="flex flex-col items-center justify-center gap-8 lg:py-12 lg:p-4 bg-white m-4 pb-4">
             <div className="group-hover:bg-primaryColor group-hover:text-white flex justify-center border-2 rounded-full border-primaryColor h-16 w-16 items-center text-primaryColor">
               {data.icon}
             </div>

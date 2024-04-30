@@ -16,9 +16,18 @@ module.exports = {
     screens: { 
       'sm': '640px', 
       'md': '1024px', 
-      'lg': '1280px', 
-      'xl': '1440px', 
+      'lg': '1280px' ,
+      "2xl" : '1440px'
     }, 
+    container: {
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "4rem",
+        "2xl": "6rem",
+      },
+    },
     extend: {
       colors: {
         primaryColor: "#0057FF",

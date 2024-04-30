@@ -6,7 +6,7 @@ import Image from "next/image";
 function DownloadApp() {
   return (
     <div
-      className="lg:flex block text-center justify-between items-center text-white py-8 bg-cover bg-center lg:m-[80px] m-4 p-4 lg:px-[80px]"
+      className="lg:flex block text-center justify-between items-center text-white py-8 bg-cover bg-center container mx-auto"
       style={{ backgroundImage: `url(${about5.src})` }}
     >
       <div><h6 className="lg:text-5xl text-2xl font-semibold">Download PCAC App</h6></div>

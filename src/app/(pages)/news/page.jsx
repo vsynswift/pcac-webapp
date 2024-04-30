@@ -5,7 +5,9 @@ function News () {
     return(
             <div className="">
             <BreadCamps title={"News"} subtitle ={"PCAC : Latest News"}/>
+               <div className="lg:m-[80px] m-4">
                <NewsCard />
+               </div>
             </div>
     )
 }

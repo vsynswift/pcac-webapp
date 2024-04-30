@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+._1JRT_ img {
+    margin-top: 0vh;
+    width: 80%;
+    height: 80%;
+}

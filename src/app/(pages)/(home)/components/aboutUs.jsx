@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function About() {
   return (
-    <div className="lg:pt-[100px] lg:px-[80px] pt-20 px-4 relative lg:mt-[100px]">
+    <div className="container mx-auto pt-20 lg:pt-[100px] relative lg:mt-[100px]">
       <div>
         <h6 className="text-lg font-semibold">ABOUT US</h6>
       </div>

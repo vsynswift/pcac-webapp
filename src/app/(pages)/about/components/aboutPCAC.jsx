@@ -9,8 +9,8 @@ import { Carousel } from "flowbite-react";
 
 function AboutPCAC() {
   return (
-    <div className="bg-cover relative">
-      <div className="lg:flex gap-8 block justify-between px-[20px] py-[20px] lg:px-[80px] lg:py-[40px] items-center">
+    <div className="bg-cover relative container mx-auto">
+      <div className="lg:flex gap-8 block justify-between py-[20px] lg:py-[40px] items-center">
         <div className="lg:w-[500px] w-full">
           <div className="hidden lg:block">
             <div className="lg:flex block">

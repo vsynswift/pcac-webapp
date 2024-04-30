@@ -3,7 +3,7 @@ import Bgsubscribe from "../../assets/images/bgsubscribe.png";
 import DefaultInput from "./defaultInput";
 function Subscribe() {
   return (
-    <div className="text-center flex justify-center items-center p-4 lg:p-[80px]">
+    <div className="text-center flex justify-center items-center lg:py-[80px] container mx-auto">
       <img
         className="absolute lg:h-[450px] h-[300px] "
         src={Bgsubscribe.src}
